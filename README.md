@@ -1,6 +1,12 @@
-# AngularSample
+# Intial setup
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+- Node.js version 8.x or 10.x is required
+- npm must be installed.
+
+```
+npm install -g @angular/cli
+npm install
+```
 
 ## Development server
 
