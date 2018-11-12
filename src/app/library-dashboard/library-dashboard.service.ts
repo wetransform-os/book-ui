@@ -1,4 +1,4 @@
-import { Book } from './models/Book.interface';
+import { Book } from './models/book.interface';
 
 export class LibraryDashboardService {
 

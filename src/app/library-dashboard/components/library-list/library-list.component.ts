@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { LibraryDashboardService } from './../../library-dashboard.service';
 
-import { Book } from '../../models/Book.interface';
+import { Book } from '../../models/book.interface';
 
 @Component({
   selector: 'library-list',
