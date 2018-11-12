@@ -3,7 +3,6 @@
     Welcome to {{ title }}!
   </h1>
   
-
   <nav class="nav">
 
     <a routerLink="/" 
@@ -11,8 +10,9 @@
        [routerLinkActiveOptions]="{ exact: true }"
        class="menu-item">Home</a>
 
-    <a routerLink="/oops" 
+    <a routerLink="/library" 
        routerLinkActive="active" 
+       [routerLinkActiveOptions]="{ exact: true}"
        class="menu-item">Library</a>
   </nav>
 </div>
