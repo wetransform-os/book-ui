@@ -1,4 +1,4 @@
-# Intial setup
+## Initial setup
 
 - Node.js version 8.x or 10.x is required
 - npm must be installed.
