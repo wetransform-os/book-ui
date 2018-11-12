@@ -7,6 +7,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { LibraryListComponent } from './components/library-list/library-list.component';
 
+//Services
+import { LibraryDashboardService } from './library-dashboard.service';
 
 const routes: Routes = [
   {
@@ -25,6 +27,8 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     NgbModule
   ],
-  providers: []
+  providers: [
+    LibraryDashboardService
+  ]
 })
 export class LibraryDashboardModule {}
