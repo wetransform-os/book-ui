@@ -1,8 +1,12 @@
 .library-list {
   
+  .library-grid-wrapper{
+    width: 100%;
+  }
+
   .library-grid {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% 25% 42%;
   }
 
   .header {
