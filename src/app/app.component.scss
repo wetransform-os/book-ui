@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: blue;
+  
+  &.active {
+    color: purple;
+  }
+}
+
+.align-text-center {
+  text-align: center;
+}
