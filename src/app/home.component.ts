@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <div>
       <span>
         Go to the 
-        <a routerLink="/library" class="menu-item">Library</a>
+        <a routerLink="/books" class="menu-item">Library</a>
       </span>
     </div>
   `
