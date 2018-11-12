@@ -1,24 +1,30 @@
-<div class="align-text-center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+<div class="col-12">
+  <div class="align-text-center">
+      <h1>
+        Welcome to the library!
+      </h1>
+      
+      <nav class="nav">
+        <a routerLink="/" 
+            routerLinkActive="active" 
+            [routerLinkActiveOptions]="{ exact: true }"
+            class="menu-item">Home</a>
+    
+        <a routerLink="/library" 
+            routerLinkActive="active" 
+            [routerLinkActiveOptions]="{ exact: true}"
+            class="menu-item">Library</a>
+      </nav>
+    </div>
+      
+  <div class="align-text-center">
+    <img alt="library image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Urval_av_de_bocker_som_har_vunnit_Nordiska_radets_litteraturpris_under_de_50_ar_som_priset_funnits_%282%29.jpg/800px-Urval_av_de_bocker_som_har_vunnit_Nordiska_radets_litteraturpris_under_de_50_ar_som_priset_funnits_%282%29.jpg">
+  </div>
+  <div class="top-buffer">
+    <router-outlet></router-outlet>
+  </div>
   
-  <nav class="nav">
-
-    <a routerLink="/" 
-       routerLinkActive="active" 
-       [routerLinkActiveOptions]="{ exact: true }"
-       class="menu-item">Home</a>
-
-    <a routerLink="/library" 
-       routerLinkActive="active" 
-       [routerLinkActiveOptions]="{ exact: true}"
-       class="menu-item">Library</a>
-  </nav>
 </div>
 
-<div class="align-text-center">
-  <img alt="library image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Urval_av_de_bocker_som_har_vunnit_Nordiska_radets_litteraturpris_under_de_50_ar_som_priset_funnits_%282%29.jpg/800px-Urval_av_de_bocker_som_har_vunnit_Nordiska_radets_litteraturpris_under_de_50_ar_som_priset_funnits_%282%29.jpg">
-</div>
 
-<router-outlet></router-outlet>
+

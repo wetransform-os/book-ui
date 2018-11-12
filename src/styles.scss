@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+// vendor styles
+@import '~bootstrap/scss/bootstrap';
+
+.align-text-center {
+  text-align: center;
+}
+
+.top-buffer {
+  padding-top: 15px;
+}
