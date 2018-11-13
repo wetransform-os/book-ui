@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
-import { LibraryDashboardService } from './../../library-dashboard.service';
+import { LibraryDashboardService } from '../../library-dashboard.service';
 
 import { Book } from '../../models/book.interface';
 
 @Component({
-  selector: 'library-list',
-  templateUrl: './library-list.component.html',
-  styleUrls: ['./library-list.component.scss']
+  selector: 'book-list',
+  templateUrl: './book-list.component.html',
+  styleUrls: ['./book-list.component.scss']
 })
-export class LibraryListComponent implements OnInit {
+export class BookListComponent implements OnInit {
   
   books: Book[];
 

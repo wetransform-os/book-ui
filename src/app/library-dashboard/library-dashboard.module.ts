@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { LibraryListComponent } from './components/library-list/library-list.component';
+import { BookListComponent } from './components/book-list/book-list.component';
 import { BookDetailComponent } from './components/book-detail/book-detail.component';
 
 //Services
@@ -14,7 +14,7 @@ import { LibraryDashboardService } from './library-dashboard.service';
 const routes: Routes = [
   {
     path: 'books',
-    component: LibraryListComponent
+    component: BookListComponent
   },
   {
     path: 'books/:isbn',
@@ -24,7 +24,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    LibraryListComponent,
+    BookListComponent,
     BookDetailComponent
   ],
   imports: [
