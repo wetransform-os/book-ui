@@ -8,9 +8,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BookListComponent } from './components/book-list/book-list.component';
 import { BookDetailComponent } from './components/book-detail/book-detail.component';
 
-//Services
-import { LibraryDashboardService } from './library-dashboard.service';
-
 const routes: Routes = [
   {
     path: 'books',
@@ -33,8 +30,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     NgbModule
   ],
-  providers: [
-    LibraryDashboardService
-  ]
+  providers: []
 })
 export class LibraryDashboardModule {}
