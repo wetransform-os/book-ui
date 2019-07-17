@@ -133,7 +133,6 @@ export class BookListComponent implements OnInit {
         'isbn': 'a478ad2b-ef1d-49be-a8ad-7df74eb68710',
         'rating': 2,
         'summary': 'Porttitormolestie urna scelerisque condimentum neque elit convallis curae class hac, lorem porttitor consequat litora erat natoque blandit adipiscing quisque, integer odio nullam rutrum netus, mus porta vel erat leo.  Ligulasociosqu netus aenean euismod ante pretium semper vitae aliquam litora sociis at.  Leodui neque ut ridiculus elit amet nec nam tempor dis.  Nuncfelis tellus pulvinar massa pharetra montes himenaeos felis molestie ullamcorper.',
-        'published': '2006-08-22',
         'img': '/resources/gen/a478ad2b-ef1d-49be-a8ad-7df74eb68710.png'
     }, {
         'title': 'Unsaddled us mint',

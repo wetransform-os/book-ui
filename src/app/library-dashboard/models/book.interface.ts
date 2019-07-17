@@ -6,5 +6,5 @@ export interface Book {
   img: string;
   summary: string;
   rating: number;
-  published: string;
+  published?: string;
 }
