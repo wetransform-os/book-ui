@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     CommonModule,
     //Third party modules
-    NgbModule.forRoot(),
+    NgbModule,
     // custom modules
     AppRoutingModule,
     LibraryDashboardModule
